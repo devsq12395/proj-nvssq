@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 9d14e9c6-d6f0-4ae4-9605-b4433599748c
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 14
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    Protocol: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  StartInOfflineMode: 0
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  RpcList:
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RPC_CreatePlayer
+  - RPC_gameAction_abel_smite
+  - RPC_gameAction_abel_testOfFaith
+  - RPC_gameAction_ajax_allOutAssault
+  - RPC_gameAction_ajax_holdTheLine
+  - RPC_gameAction_ajax_spearToss
+  - RPC_gameAction_alicia_closeCombat
+  - RPC_gameAction_alicia_summonRecruit
+  - RPC_gameAction_amy_arcShot
+  - RPC_gameAction_amy_multishot
+  - RPC_gameAction_amy_scout
+  - RPC_gameAction_attack
+  - RPC_gameAction_changeFacing
+  - RPC_gameAction_changeItem
+  - RPC_gameAction_chat
+  - RPC_gameAction_chatMute
+  - RPC_gameAction_chatUnmute
+  - RPC_gameAction_cody_blinkStrike
+  - RPC_gameAction_colt_disarmingShot
+  - RPC_gameAction_colt_dynamite
+  - RPC_gameAction_colt_quickDraw
+  - RPC_gameAction_drakgul_concentration
+  - RPC_gameAction_drakgul_dispel
+  - RPC_gameAction_drakgul_eye
+  - RPC_gameAction_elderTreant_entangle
+  - RPC_gameAction_elderTreant_fairies
+  - RPC_gameAction_elderTreant_rootArmor
+  - RPC_gameAction_elise_multiStrike
+  - RPC_gameAction_elise_phoenixWings
+  - RPC_gameAction_endTurn
+  - RPC_gameAction_eye_explode
+  - RPC_gameAction_hilde_arcaneBolt
+  - RPC_gameAction_hilde_photonBomb
+  - RPC_gameAction_ifreet_burningGrip
+  - RPC_gameAction_ifreet_explosion
+  - RPC_gameAction_ifreet_spiral
+  - RPC_gameAction_masamune_azureDragon
+  - RPC_gameAction_masamune_windSlash
+  - RPC_gameAction_move
+  - RPC_gameAction_ragnaros_fury
+  - RPC_gameAction_robin_hookdance
+  - RPC_gameAction_robin_hookshot
+  - RPC_gameAction_robin_sworddance
+  - RPC_gameAction_sendLoadedData
+  - RPC_gameAction_sendStartData
+  - RPC_gameAction_shareGameId
+  - RPC_gameAction_shareMap
+  - RPC_gameAction_shareSkin
+  - RPC_gameAction_siegfried_heavyCharge
+  - RPC_gameAction_specWitch_blink
+  - RPC_gameAction_specWitch_mirror
+  - RPC_gameAction_specWitch_summonSpectre
+  - RPC_gameAction_summon
+  - RPC_gameAction_victoria_blessing
+  - RPC_gameAction_victoria_heal
+  - RPC_gameAction_victoria_shell
+  - RPC_gameAction_yukino_frostNova
+  - RPC_gameAction_yukino_frostWave
+  - RPC_gameAction_yukino_silence
+  - RPC_LoadedGameScene
+  - RPC_LoadGameScene
+  - RPC_SetHeroData
+  - RPC_setPlayerData
+  - RPC_SetReady
+  - RPC_testFcn
+  - RPC_SetSpellData
+  - RPC_SetUnitData
+  - RPC_gameAction_may_sacredKnights
+  - RPC_gameAction_barrier
+  - RPC_gameAction_aleric_axeThrow
+  - RPC_gameAction_aleric_mightySlam
+  - RPC_gameAction_walter_burstFire
+  - RPC_gameAction_walter_demonicSlash
+  - RPC_gameAction_spell
+  - RPC_gameAction_hireUnit
+  - RPC_gameAction_potion
+  - RPC_gameAction_healSpray
+  - RPC_gameAction_mythrilRevolver
+  - RPC_gameAction_eve_deathArrow
+  - RPC_gameAction_eve_drainLife
+  - RPC_gameAction_grenade
+  - RPC_gameAction_upgrade
+  - RPC_gameAction_artillery
+  - RPC_gameAction_grapeshot
+  - RPC_gameAction_brotherhood
+  - RPC_gameAction_conscription
+  - RPC_gameAction_acidBreath
+  - RPC_gameAction_holyCrusade
+  - RPC_gameAction_warStomp
+  - RPC_gameAction_unleashHero
+  - RPC_gameAction_heroGainXP
+  - RPC_gameAction_globalBarrier
+  - RPC_gameAction_swapHero
+  - RPC_gameAction_doubleCard
+  - RPC_gameAction_elizabeth_amplify
+  - RPC_gameAction_elizabeth_lightningBolt
+  - RPC_gameAction_upgrade2
+  - RPC_gameAction_changeWeapon
+  - RPC_gameAction_fixBayonet
+  - RPC_gameAction_removeBayonet
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
